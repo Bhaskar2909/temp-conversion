@@ -1,9 +1,7 @@
 
-
 <script>
-function Conversion(params) {
-    C = K - 273.15
-document.write(C);
-    document.getElementById(cel).innerHtml=C;
-};
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("kelvin").innerHTML=(valNum+273.15);
+}
 </script>
