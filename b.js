@@ -2,7 +2,7 @@
 
 <script>
 function Conversion(params) {
-    C = (5/9) * (F - 32)
+    C = K - 273.15
 document.write(C);
     document.getElementById(cel).innerHtml=C;
 };
