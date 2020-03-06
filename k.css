@@ -20,3 +20,7 @@ p{
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 }
+footer{
+    background-color: rgb(255, 0, 0);
+    padding: 15px;
+}
